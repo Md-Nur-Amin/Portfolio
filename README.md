@@ -19,9 +19,9 @@ yarn install
 
 
 Running Locally:
-
+```
 npm run dev
-# or
+or
 yarn dev
 ```
 
