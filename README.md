@@ -1,21 +1,41 @@
-# Vite-tamplate
-## Vite + Tailwind + Daisy UI
+# Portfolio with Shared Background & Routing
 
-🌟 Vite + Tailwind CSS + DaisyUI Template
-A sleek frontend template using Vite, Tailwind CSS, and DaisyUI to jumpstart your projects.
+---
 
-## :rocket: Quick Start
-* Clone: git clone https://github.com/Md-Nur-Amin/Vite-tamplate
-* Install: npm install
-* Develop: npm run dev
-* Build: npm run build
+## Getting Started
 
-## :art: Customization
-*Tailwind: Edit tailwind.config.js for styling.
-*DaisyUI: Tweak daisyui.config.js for themes.
+### Prerequisites
 
-## :handshake: Contributions
-Fork, improve, and submit pull requests—contributions are welcome!
+- Node.js installed
+- npm or yarn package manager
 
-## 📄 License
-Licensed under the MIT License.
+### Installation
+
+```bash
+git clone https://github.com/Md-Nur-Amin/Portfolio.git
+cd your-repo
+npm install
+# or
+yarn install
+```
+
+
+Running Locally:
+
+```
+npm run dev
+# or
+yarn dev
+```
+
+Live Demo
+https://example-live-link.com
+ (coming soon)
+
+```
+```
+## Contact
+Md. Nur Amin  
+Email: [rabbiii049@gmail.com](mailto:rabbiii049@gmail.com)
+GitHub: [https://github.com/Md-Nur-Amin](https://github.com/Md-Nur-Amin)
+LinkedIn: [https://www.linkedin.com/in/md-nur-amin-rabbi/](https://www.linkedin.com/in/md-nur-amin-rabbi/)
