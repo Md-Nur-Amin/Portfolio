@@ -1,7 +1,5 @@
-# Portfolio with Shared Background & Routing
-
+# Portfolio
 ---
-
 ## Getting Started
 
 ### Prerequisites
@@ -22,18 +20,18 @@ yarn install
 
 Running Locally:
 
-```
 npm run dev
 # or
 yarn dev
 ```
 
+---
 Live Demo
 https://example-live-link.com
  (coming soon)
 
-```
 
+---
 ## Contact
 Md. Nur Amin  
 Email: [rabbiii049@gmail.com](mailto:rabbiii049@gmail.com)
