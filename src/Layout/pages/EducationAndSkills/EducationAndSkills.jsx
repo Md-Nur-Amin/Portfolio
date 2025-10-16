@@ -2,7 +2,7 @@ import React from "react";
 
 const EducationAndSkills = () => {
     return (
-        <div className="min-h-screen bg-[#0e0e0e] text-[#eae6db] flex flex-col items-center justify-center px-4 py-10 space-y-10 relative overflow-hidden">
+        <div className="min-h-screen text-[#eae6db] flex flex-col items-center justify-center px-4 py-10 space-y-10 relative overflow-hidden">
             
             {/* Top Left Circles */}
             <div className="absolute top-3 left-3 flex gap-2">
