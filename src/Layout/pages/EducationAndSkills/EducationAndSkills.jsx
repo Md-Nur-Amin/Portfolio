@@ -7,16 +7,16 @@ const EducationAndSkills = () => {
         <div className="min-h-screen text-[#eae6db] flex flex-col items-center justify-center px-4 py-10 space-y-10 relative overflow-hidden">
             
             {/* Top Left Circles */}
-            <div className="absolute top-3 left-3 flex gap-2">
+            {/* <div className="absolute top-3 left-3 flex gap-2">
                 <div className="w-3 h-3 rounded-full border border-[#eae6db]"></div>
                 <div className="w-3 h-3 rounded-full border border-[#eae6db]"></div>
-            </div>
+            </div> */}
 
             {/* Top Right Circles */}
-            <div className="absolute top-3 right-3 flex gap-2">
+            {/* <div className="absolute top-3 right-3 flex gap-2">
                 <div className="w-3 h-3 rounded-full border border-[#eae6db]"></div>
                 <div className="w-3 h-3 rounded-full bg-[#eae6db]"></div>
-            </div>
+            </div> */}
 
             {/* Section Title */}
             <div className="text-center">
