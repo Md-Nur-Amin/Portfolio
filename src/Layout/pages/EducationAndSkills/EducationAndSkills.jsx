@@ -1,4 +1,6 @@
-import React from "react";
+import spellbook from "../../../assets/spellbook.png";
+import magicStaff from "../../../assets/magic-staff.png";
+
 
 const EducationAndSkills = () => {
     return (
@@ -24,40 +26,62 @@ const EducationAndSkills = () => {
 
             {/* Education Section */}
             <div className="w-full max-w-4xl space-y-6">
-                <h2 className="text-2xl font-semibold border-b border-[#eae6db]/30 pb-1">🎓 Education</h2>
+                <div className="flex items-center gap-3 border-b border-[#eae6db]/30 pb-1">
+                    <img src={spellbook} alt="Spellbook Icon" className="w-6 h-6 drop-shadow-[0_0_6px_#eae6db]" />
+                    <h2 className="text-2xl font-semibold">Education</h2>
+                </div>
 
                 <div className="space-y-4">
                     <div className="bg-[#1a1a1a] p-4 rounded-lg border border-[#eae6db]/20">
-                        <h3 className="text-xl font-medium">B.Sc. in Computer Science</h3>
-                        <p className="text-sm text-[#eae6db]/80">University of XYZ | 2018 - 2022</p>
-                        <p className="mt-1 text-[#eae6db]/70">Focused on software engineering, testing methodologies, and data structures.</p>
+                        <h3 className="text-xl font-medium">B.Sc. in Computer Science & Engineering</h3>
+                        <p className="text-sm text-[#eae6db]/80">Green University of Bangladesh | 2022 – Present</p>
+                        <p className="mt-1 text-[#eae6db]/70">
+                            Relevant coursework: Software Engineering, Software Quality Assurance, Machine Learning.
+                        </p>
                     </div>
 
                     <div className="bg-[#1a1a1a] p-4 rounded-lg border border-[#eae6db]/20">
-                        <h3 className="text-xl font-medium">Higher Secondary Certificate (HSC)</h3>
-                        <p className="text-sm text-[#eae6db]/80">ABC College | 2016 - 2018</p>
+                        <h3 className="text-xl font-medium">Higher Secondary Certificate (HSC), Science</h3>
+                        <p className="text-sm text-[#eae6db]/80">Abudhar Giffari College | 2019 – 2021</p>
+                    </div>
+
+                    <div className="bg-[#1a1a1a] p-4 rounded-lg border border-[#eae6db]/20">
+                        <h3 className="text-xl font-medium">Secondary School Certificate (SSC), Science</h3>
+                        <p className="text-sm text-[#eae6db]/80">Gulshan Model School & College</p>
                     </div>
                 </div>
             </div>
 
             {/* Skills Section */}
             <div className="w-full max-w-4xl space-y-6">
-                <h2 className="text-2xl font-semibold border-b border-[#eae6db]/30 pb-1">🛠️ Skills</h2>
+                <div className="flex items-center gap-3 border-b border-[#eae6db]/30 pb-1">
+                    <img src={magicStaff} alt="Magic Staff Icon" className="w-6 h-6 drop-shadow-[0_0_6px_#eae6db]" />
+                    <h2 className="text-2xl font-semibold">Skills</h2>
+                </div>
 
                 <div className="flex flex-wrap gap-3">
                     {[
                         "Manual Testing",
-                        "Automation Testing",
-                        "Selenium",
-                        "Postman",
-                        "JIRA",
-                        "Agile/Scrum",
-                        "JavaScript",
-                        "React",
-                        "Tailwind CSS",
-                        "Git",
-                        "CI/CD",
-                        "Test Planning"
+                        "Functional Testing",
+                        "Regression Testing",
+                        "Smoke & Sanity Testing",
+                        "Test Case Design",
+                        "TestRail",
+                        "Zephyr",
+                        "Jira",
+                        "ClickUp",
+                        "Linear",
+                        "Trello",
+                        "Selenium WebDriver",
+                        "Playwright",
+                        "Cypress",
+                        "Postman (API Testing)",
+                        "Jest (Unit Testing)",
+                        "JMeter",
+                        "k6",
+                        "CI/CD (Jenkins, GitHub)",
+                        "Agile / Scrum",
+                        "SDLC & STLC"
                     ].map((skill, index) => (
                         <div
                             key={index}
