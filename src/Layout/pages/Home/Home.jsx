@@ -7,7 +7,7 @@ const Home = () => {
     const homeRef = useRef(null);
     const [fadeBlur, setFadeBlur] = useState(false);
     const [typedText, setTypedText] = useState("");
-    const fullTitle = "SQA Engineer";
+    const fullTitle = "Md. Nur Amin";
 
     // Typing effect
     useEffect(() => {
@@ -90,7 +90,7 @@ const Home = () => {
                         <div className="inline-flex items-center gap-2">
                             <div className="w-3 h-3 bg-[#eae6db] rounded-full" />
                             <div className="border border-[#eae6db] px-3 py-1 rounded-full font-serif italic text-sm">
-                                Md. Nur Amin
+                                SQA Engineer
                             </div>
                         </div>
                     </motion.div>
